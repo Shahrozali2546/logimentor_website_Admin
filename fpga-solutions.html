@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogiMentor</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div class="navigation-container">
+      <div class="logo">
+        <a href="./"><img src="assets/img/logo.png" alt="LogiMentor" /></a>
+      </div>
+      <button class="menu-btn">
+        <img src="assets/img/menu.svg" alt="" />
+      </button>
+      <div class="menu-container">
+        <div class="menu">
+          <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./company.html">Company</a></li>
+            <li><a href="./fpga-design.html">FPGA Design</a></li>
+            <li>
+              <a href="./fpga-solutions.html" class="active">FPGA Solutions</a>
+            </li>
+            <li>
+              <a href="./research-innovations.html">Research and Innovation</a>
+            </li>
+            <li class="dropdown-container">
+              <a href="javascript:void(0)">Courses</a>
+              <div class="dropdown-content">
+                <a href="./fpga-programming.html">FPGA Programming</a>
+                <a href="./vhdl-programming.html">Intro to VHDL Programming</a>
+                <a href="./expert-vhdl-programming.html">Expert VHDL Programming</a>
+                <a href="./expert-vhdl-programming.html">Advanced VHDL Programming</a>
+              </div>
+            </li>
+            <!-- <li><a href="./partners.html">Partners</a></li> -->
+            <li>
+              <a href="./contact-us.html" class="menu-btn-contact"
+                >Get In Touch</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Vertical Cards -->
+    <section class="vertical-cards-container">
+      <div class="vertical-card">
+        <span>proprietary FPGA IP CORES</span>
+        <h1>FPGA SOLUTIONS</h1>
+        <p>
+          We develop and sell our proprietary FPGA IP CORES, vendor-independent,
+          optimized for speed, power, and resource usage, allowing our customers
+          to easily integrate them into their own systems. We customize our IP
+          cores and design new ones to meet our customers' specific needs. We
+          offer:
+          <b>
+            more than 115 IPs, 7 different libraries, 110,000 lines of code with
+            40,000 lines of comments.
+          </b>
+        </p>
+        <p>
+          The IPs range from simple to complex functions, and are available as
+          ready-to-use configurable systems, from basic FIFO IP Cores to a
+          complete ready-to-use ATA Over Ethernet Bridge IP.
+        </p>
+      </div>
+      <div class="vertical-card">
+        <h1>IP Cores Key Features & Deliverables</h1>
+        <div class="vertical-card-list-container">
+          <ul class="vertical-card-list">
+            <li>
+              <p>
+                Vendor independent “off the shelf” VHDL IP cores for FPGAs
+                (Xilinx, Intel, Lattice, and Microsemi)
+              </p>
+            </li>
+            <li>
+              <p>Optimized in terms of speed, power, and resource usage</p>
+            </li>
+            <li>
+              <p>
+                Architected, developed, verified, released, and maintained
+                through a rigorous and efficient process
+              </p>
+            </li>
+            <li>
+              <p>DO-254 and IEC-61508 V&V support available upon request</p>
+            </li>
+            <li>
+              <p>Factory adjustable parameters and parallelism</p>
+            </li>
+            <li>
+              <p>
+                Math and DSP Cores available in both fixed-point and
+                floating-point formats
+              </p>
+            </li>
+            <li>
+              <p>VHDL-2008 support available upon request</p>
+            </li>
+            <li>
+              <p>AXI Wrapper available upon request</p>
+            </li>
+          </ul>
+          <ul class="vertical-card-list">
+            <li>
+              <p>
+                Encrypted source code (maximum reusability across multiple
+                targets)
+              </p>
+            </li>
+            <li>
+              <p>
+                Synthesized netlist (lowest cost, targeted at a single FPGA,
+                low-cost respin to other targets)
+              </p>
+            </li>
+            <li>
+              <p>
+                Functional VHDL self-checking testbench, for DSP modules, a
+                golden reference floating point, and a bit-accurate fixed-point
+                model
+              </p>
+            </li>
+            <li>
+              <p>Full set of documentation</p>
+            </li>
+            <li>
+              <p>
+                Verification and Validation Procedure suitable for
+                safety-critical applications (optional)
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Group Cards -->
+    <section class="group-cards-container solutions-group-cards-container">
+      <div class="group-card border-right border-bottom">
+        <img src="assets/img/cards/library.svg" alt="" />
+        <h1>UTILITY LIBRARY</h1>
+        <p>
+          FIFO (Sync/Async, FWFT...) || Register Bank (AXI4LITE, AHB) || Cross
+          Clock Domain Modules || Tick Generator || Clock Generator || Elapsed
+          Time Counter || Debouncer || RAM (Single/Dual port and clock) ||
+          Bitsum || Utility Package || Pulse Stretch || Encoder/Decoder || Delay
+          (SRL, RAM, Fixed, Variable) || And others
+        </p>
+      </div>
+      <div class="group-card border-bottom">
+        <img src="assets/img/cards/math.svg" alt="" />
+        <h1>MATH LIBRARY</h1>
+        <p>
+          Floating Point Math || Fixed Point Math || PID Fixed/Floating ||
+          CORDIC || Integer Math || Complex Multiplexer || PWM Random Number
+          Generator || Interpolation || Mean || Distance (Euclidean/Statistical)
+          || Adder Tree || Math Package || And others
+        </p>
+      </div>
+      <div class="group-card border-right border-bottom">
+        <img src="assets/img/cards/radar.svg" alt="" />
+        <h1>RADAR LIBRARY</h1>
+        <p>
+          Time Domain Beamforming || Pulse Compressor || (Super Sample Rate) ||
+          Overlap-Add || Range - Doppler || MTI Filtering || CFAR || Frequency
+          Domain Beamforming || Radar Waveform Generator (CW, Chirp, Barker,
+          arbitrary) || And others
+        </p>
+      </div>
+      <div class="group-card border-bottom">
+        <img src="assets/img/cards/dspeed.svg" alt="" />
+        <h1>DSPeeD LIBRARY</h1>
+        <p>
+          Super sample rate modules || FFT(serial/parallel, DIF/DIT) ||
+          Polyphase Filter Bank || Channelizer || DDC/DUC || IIR CIC || Waveform
+          Generator || DDS || White Noise Generator || Windowing || And others
+        </p>
+      </div>
+      <div class="group-card border-right border-bottom">
+        <img src="assets/img/cards/io.svg" alt="" />
+        <h1>IO AND COMUNICATION LIBRARY</h1>
+        <p>
+          Ethernet MAC || SATA || Ata Over Ethernet (AoE) || UART (run time
+          programmable) || SPI || I2C || CAN || MIL-STD 1553 || ARINC-429 || CRC
+          || AXI Wrappers available for all modules || And others
+        </p>
+      </div>
+      <div class="group-card border-bottom">
+        <img src="assets/img/cards/video.svg" alt="" />
+        <h1>VIDEO PROCESSING LIBRARY</h1>
+        <p>
+          H264 || Image stabilizer || Sobel || Blob Extraction || Connected
+          Component Labeling || Overlay || Erosion/Dilation Scaler || Rank
+          filter || Canny || Segmentation || Crop || RGB2HSV, RGB2GRAY ||
+          Row/Window buffers || And others
+        </p>
+      </div>
+      <div class="group-card border-right border-bottom">
+        <img src="assets/img/cards/hardware.svg" alt="" />
+        <h1>HARDWARE DRIVERS LIBRARY</h1>
+        <p>
+          FT2232 || ADS7953 || AD7450 || LT-2323 || ADT7310 || SRAM generic ||
+          SPI Flash MCP23S17 || MCP4821 || MAX31855 || SHT75 || ISD2353 ||
+          AD7476 || ADS5481 || And others
+        </p>
+      </div>
+    </section>
+    <!-- Further information -->
+    <section class="information-container">
+      <div class="information-content">
+        <h1>For Further Information</h1>
+        <p>
+          LogiMentor is a high-performance, privately held, innovative company
+          dedicated to the development of advanced FPGA design services, HDL IP
+          cores, and custom solutions. We are committed to delivering the best
+          possible solutions to our customers and are always seeking talented
+          and skilled professionals to join our team.
+        </p>
+
+        <a href="./contact-us.html" class="btn-header">Contact Us</a>
+      </div>
+      <div class="information-form">
+        <!-- <form>
+          <div class="form-group">
+            <label for="name" class="text-white">Name:</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" class="form-control" id="phone" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn-submit">Submit</button>
+          </div>
+        </form> -->
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer-container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <img src="assets/img/logo.png" alt="Logo" />
+          <p>
+            12345 Street, City, State, Zip<br />
+            (123) 456-7890<br />
+            email@example.com
+          </p>
+        </div>
+        <div class="footer-right">
+          <div class="footer-right-card">
+            <h2>Links</h2>
+            <ul>
+              <li><a href="./">Home</a></li>
+              <li><a href="./company.html">Company</a></li>
+              <li><a href="./fpga-design.html">FPGA Design</a></li>
+              <li><a href="./fpga-solutions.html">FPGA Solutions</a></li>
+              <li>
+                <a href="./research-innovations.html"
+                  >Research and Innovation</a
+                >
+              </li>
+              <!-- <li><a href="./partners.html">Partners</a></li> -->
+            </ul>
+          </div>
+          <div class="footer-right-card">
+            <h2>Follow Us</h2>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          <b>LOGIMENTOR</b> | P.Iva 01780710495 | Uri LIVORNO | Rea 157459 |
+          Cap.Soc. 10.000 €
+        </p>
+      </div>
+    </footer>
+    <script>
+      let menu_btn = document.querySelector(".menu-btn");
+      let menu = document.querySelector(".menu-container");
+      menu_btn.addEventListener("click", () => {
+        menu_btn.classList.toggle("active");
+        if (menu_btn.classList.contains("active")) {
+          menu_btn.innerHTML = '<img src="assets/img/x.svg" alt="" />';
+        } else {
+          menu_btn.innerHTML = '<img src="assets/img/menu.svg" alt="" />';
+        }
+        menu.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

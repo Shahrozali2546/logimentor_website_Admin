@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogiMentor</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="navigation-container">
+        <div class="logo">
+            <a href="./"><img src="assets/img/logo.png" alt="LogiMentor" /></a>
+        </div>
+        <button class="menu-btn">
+            <img src="assets/img/menu.svg" alt="" />
+        </button>
+        <div class="menu-container">
+            <div class="menu">
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./company.html">Company</a></li>
+                    <li><a href="./fpga-design.html">FPGA Design</a></li>
+                    <li><a href="./fpga-solutions.html">FPGA Solutions</a></li>
+                    <li>
+                        <a href="./research-innovations.html">Research and Innovation</a>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="javascript:void(0)" class="active">Courses</a>
+                        <div class="dropdown-content">
+                            <a href="./fpga-programming.html" class="active">FPGA Programming</a>
+                            <a href="./vhdl-programming.html">Intro to VHDL Programming</a>
+                            <a href="./expert-vhdl-programming.html">Expert VHDL Programming</a>
+                            <a href="./advanced-vhdl-programming.html">Advanced VHDL Programming</a>
+                        </div>
+                    </li>
+                    <!-- <li><a href="./partners.html">Partners</a></li> -->
+                    <li>
+                        <a href="./contact-us.html" class="menu-btn-contact">Get In Touch</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <section class="course-container">
+        <!-- <div class="course-header">
+            <div class="course-header-content">
+                <h1>Course Name</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione laudantium labore dolorum
+                    quas. Tempora fugiat incidunt cupiditate sequi repellendus, dicta est explicabo nihil harum
+                    voluptatem vero. Sunt, in corrupti dolores animi nemo officiis dicta suscipit, repellendus adipisci
+                    nostrum quod.</p>
+            </div>
+            <img src="assets/img/header-img.jpg" alt="Header Image" />
+        </div> -->
+        <div class="course-body">
+            <div class="course-details">
+                <h1>Tcl for FPGA Programming</h1>
+                <h2>Course Overview:</h2>
+                <p>
+                    This course will focus on giving students practical experience with VHDL right from the start. After
+                    a brief introduction to VHDL, students will dive into writing real code and running it in a
+                    simulator. The course will cover key concepts of VHDL, including combinatorial and sequential
+                    circuits, through hands-on examples and simulation exercises, showing how the code translates into
+                    waveforms and digital behavior.
+                </p>
+                <h3>Target Audience:</h3>
+                <ul>
+                    <li>Beginners in digital design</li>
+                    <li>Students in electronics or computer engineering programs</li>
+                    <li>Professionals looking to refresh their knowledge of VHDL</li>
+                </ul>
+                <h3>Prerequisites:</h3>
+                <ul>
+                    <li>Basic understanding of digital logic (AND, OR, NOT gates, flip-flops, etc.)</li>
+                    <li>Familiarity with any programming language is helpful but not required</li>
+                </ul>
+                <h2>Course Structure:</h2>
+                <h3>Lesson 1: Introduction to VHDL and the Simulation Environment</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                    </li>
+                    <ul>
+                        <li>Brief Introduction to VHDL: Purpose and Applications</li>
+                        <li>Setting up the environment (e.g., ModelSim and VS Code)</li>
+                        <li>Overview of the VHDL file structure (Entity, Architecture, packages)</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Learning Objectives:</h2>
+                            <ul>
+                                <li>Understand the purpose of VHDL and set up a simulation environment</li>
+                                <li>Familiarize with the basic structure of VHDL code</li>
+                            </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Activities:</h2>
+                            <ul>
+                                <li>Live demonstration: Setting up the simulator and writing a simple AND gate in VHDL
+                                </li>
+                                <li>Running the first simulation and observing the waveform output</li>
+                            </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Material: </h4>
+                        <p>Slides for introduction, simulator setup guide, code editor for live coding</p>
+                    </li>
+                </ul>
+                <h3>Lesson 2: Writing and Simulating Basic Combinatorial Circuits</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                    </li>
+                    <ul>
+                        <li>Writing VHDL code for combinatorial logic (AND, OR, XOR gates)</li>
+                        <li>Simulating combinatorial circuits and analyzing waveforms</li>
+                        <li>Understanding how code translates to waveforms in the simulator</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Write and simulate basic combinatorial circuits in VHDL</li>
+                            <li>Analyze simulation waveforms to understand digital behavior</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Coding and simulating a 4-to-1 multiplexer in VHDL</li>
+                            <li>Live analysis of waveform results in the simulator</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Material: </h4>
+                        <p>Slides on combinatorial circuits, code editor and simulator for hands-on work</p>
+                    </li>
+                </ul>
+
+                <h3>Lesson 3: Introduction to Sequential Logic with Simulation</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                    </li>
+                    <ul>
+                        <li>Overview of Sequential Logic: Flip-Flops and Registers</li>
+                        <li>Writing VHDL code for basic sequential circuits (e.g., D flip-flop)</li>
+                        <li>Simulating sequential circuits and understanding clocked behavior in waveforms</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Write and simulate basic sequential circuits in VHDL</li>
+                            <li>Understand how clock signals affect sequential circuits through waveforms</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Coding and simulating a D flip-flop in VHDL</li>
+                            <li>Analyzing the clocked behavior in the simulation waveform</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Material: </h4>
+                        <p>Slides on sequential logic, code editor and simulator for practical exercises</p>
+                    </li>
+                </ul>
+
+                <h3>Lesson 4: Designing and Simulating Simple State Machines</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                    </li>
+                    <ul>
+                        <li>Introduction to State Machines (Moore and Mealy)</li>
+                        <li>Writing VHDL code for a simple state machine (e.g., traffic light controller)</li>
+                        <li>Simulating state machines and understanding state transitions through waveforms</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Design, write, and simulate a simple state machine in VHDL</li>
+                            <li>Use waveform analysis to understand state transitions in digital circuits</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Coding and simulating a traffic light controller state machine in VHDL</li>
+                            <li>Waveform analysis to observe state transitions and outputs</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Material: </h4>
+                        <p>Slides on state machines, code editor and simulator for hands-on work</p>
+                    </li>
+                </ul>
+
+                <h3>Lesson 5: Creating and Running Testbenches</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                    </li>
+                    <ul>
+                        <li>What is a Testbench? Why are they important?</li>
+                        <li>Writing simple testbenches to simulate and validate VHDL designs</li>
+                        <li>Running testbenches in the simulator and analyzing the results</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Write and run testbenches to validate VHDL code</li>
+                            <li>Understand how testbenches help in verifying circuit behavior through simulation</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Coding and running a testbench for the 4-to-1 multiplexer designed earlier</li>
+                            <li>Analyzing the waveform results from the testbench</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Material: </h4>
+                        <p>Slides on testbenches, code editor and simulator for practical exercises</p>
+                    </li>
+                </ul>
+
+                <h3>Lesson 6: Basic Arithmetic Circuits with Simulation</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                    </li>
+                    <ul>
+                        <li>Writing VHDL code for arithmetic circuits (e.g., adders, subtractors)</li>
+                        <li>Simulating arithmetic circuits and analyzing the results</li>
+                        <li>Using VHDL libraries (e.g., numeric_std) for arithmetic operations</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Design, write, and simulate basic arithmetic circuits in VHDL</li>
+                            <li>Use waveform analysis to verify arithmetic operations in digital circuits</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Coding and simulating a 4-bit adder in VHDL</li>
+                            <li>Analyzing the results and ensuring correct arithmetic operation through waveforms</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Material: </h4>
+                        <p>Slides on arithmetic circuits, code editor and simulator for hands-on work</p>
+                    </li>
+                </ul>
+
+                <h3>Lesson 7: Course Wrap-Up and Final Project Overview</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                    </li>
+                    <ul>
+                        <li>Review of the main concepts learned in the course</li>
+                        <li>Overview of the final project: Designing a simple ALU (Arithmetic Logic Unit) using VHDL
+                        </li>
+                        <li>Guidelines for the final project and next steps</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Consolidate knowledge acquired during the course</li>
+                            <li>Prepare students for the final project and further learning</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Overview of the final project, Q&A session</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Material: </h4>
+                        <p>Summary slides, project guidelines, resources for further learning</p>
+                    </li>
+                </ul>
+                <hr>
+                <h3>Final Project: Simple ALU Design</h3>
+                <ul>
+                    <li>
+                        <h4>Objective:</h4>
+                        <p>Design a simple 4-bit ALU in VHDL that can perform basic arithmetic and logical operations
+                            (AND, OR, ADD, SUBTRACT).</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Requirements:</h4>
+                    </li>
+                    <ul>
+                        <li>Use the concepts learned throughout the course</li>
+                        <li>Write a VHDL testbench to verify the functionality of the ALU</li>
+                        <li>Simulate the ALU design and analyze the waveform results</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Deliverables:</h4>
+                    </li>
+                    <ul>
+                        <li>ALU VHDL code</li>
+                        <li>Testbench code</li>
+                        <li>Simulation results and waveform analysis</li>
+                    </ul>
+                </ul>
+                <hr>
+                <h3>Course Delivery Method</h3>
+                <ul>
+                    <li>
+                        <h4>Format:</h4>
+                        <p>Each lesson will focus on practical coding and simulation exercises. The instructor will use
+                            screen recording to show live coding, running simulations, and analyzing waveforms in
+                            real-time. This will help students see the direct connection between VHDL code and the
+                            resulting digital behavior.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Tools:</h4>
+                    </li>
+                    <ul>
+                        <li>Slide deck for theoretical concepts and guidelines</li>
+                        <li>Text editor (e.g., VSCode) for VHDL coding</li>
+                        <li>VHDL simulator (e.g., ModelSim) for running simulations and viewing waveforms</li>
+                    </ul>
+                </ul>
+
+                <h3>Assessment</h3>
+                <ul>
+                    <li>
+                        <h4>Quizzes:</h4>
+                        <p>Short quizzes after each lesson to reinforce key concepts</p>
+                    </li>
+                    <li>
+                        <h4>Assignments:</h4>
+                        <p>Hands-on coding exercises to practice VHDL and simulation</p>
+                    </li>
+                    <li>
+                        <h4>Final Project:</h4>
+                        <p>Design, simulate, and analyze a simple ALU</p>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- <div class="course-price-box">
+                <div class="course-detail-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" class="form-control" id="phone" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" required></textarea>
+                    </div>
+                </div>
+                <button>Send An Inquiry</button>
+            </div> -->
+            <div class="course-checkout-box">
+                <h2>Course Total: $1,500</h2>
+                <p>
+                    LogiMentor offers a 10% discount for students and early-adopters.
+                    Please note that the discount may not apply if you choose to purchase
+                    multiple courses or if your purchase exceeds $1,000.
+                </p>
+                <button>Pay & Download</button>
+            </div>
+        </div>
+    </section>
+    <!-- Further information -->
+    <section class="information-container">
+        <div class="information-content">
+            <h1>For Further Informations</h1>
+            <p>
+                LogiMentor is a dynamic, privately owned company focused on delivering
+                cutting-edge FPGA design services, HDL IP cores, and tailored
+                solutions. We are passionate about providing top-tier solutions to our
+                clients and are continuously seeking skilled and talented
+                professionals to become a part of our growing team.
+            </p>
+            <a href="./contact-us.html" class="btn-header">Contact Us</a>
+        </div>
+        <div class="information-form">
+            <!-- <form>
+          <div class="form-group">
+            <label for="name" class="text-white">Name:</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" class="form-control" id="phone" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn-submit">Submit</button>
+          </div>
+        </form> -->
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="assets/img/logo.png" alt="Logo" />
+                <p>
+                    12345 Street, City, State, Zip<br />
+                    (123) 456-7890<br />
+                    email@example.com
+                </p>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-card">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="./">Home</a></li>
+                        <li><a href="./company.html">Company</a></li>
+                        <li><a href="./fpga-design.html">FPGA Design</a></li>
+                        <li><a href="./fpga-solutions.html">FPGA Solutions</a></li>
+                        <li>
+                            <a href="./research-innovations.html">Research and Innovation</a>
+                        </li>
+                        <!-- <li><a href="./partners.html">Partners</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-right-card">
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                <b>LOGIMENTOR</b> | P.Iva 01780710495 | Uri LIVORNO | Rea 157459 |
+                Cap.Soc. 10.000 €
+            </p>
+        </div>
+    </footer>
+    <script>
+        let menu_btn = document.querySelector(".menu-btn");
+        let menu = document.querySelector(".menu-container");
+        menu_btn.addEventListener("click", () => {
+            menu_btn.classList.toggle("active");
+            if (menu_btn.classList.contains("active")) {
+                menu_btn.innerHTML = '<img src="assets/img/x.svg" alt="" />';
+            } else {
+                menu_btn.innerHTML = '<img src="assets/img/menu.svg" alt="" />';
+            }
+            menu.classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>

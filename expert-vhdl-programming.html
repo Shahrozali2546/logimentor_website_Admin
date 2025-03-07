@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogiMentor</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="navigation-container">
+        <div class="logo">
+            <a href="./"><img src="assets/img/logo.png" alt="LogiMentor" /></a>
+        </div>
+        <button class="menu-btn">
+            <img src="assets/img/menu.svg" alt="" />
+        </button>
+        <div class="menu-container">
+            <div class="menu">
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./company.html">Company</a></li>
+                    <li><a href="./fpga-design.html">FPGA Design</a></li>
+                    <li><a href="./fpga-solutions.html">FPGA Solutions</a></li>
+                    <li>
+                        <a href="./research-innovations.html">Research and Innovation</a>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="javascript:void(0)" class="active">Courses</a>
+                        <div class="dropdown-content">
+                            <a href="./fpga-programming.html">FPGA Programming</a>
+                            <a href="./vhdl-programming.html">Intro to VHDL Programming</a>
+                            <a href="./expert-vhdl-programming.html" class="active">Expert VHDL Programming</a>
+                            <a href="./advanced-vhdl-programming.html">Advanced VHDL Programming</a>
+                        </div>
+                    </li>
+                    <!-- <li><a href="./partners.html">Partners</a></li> -->
+                    <li>
+                        <a href="./contact-us.html" class="menu-btn-contact">Get In Touch</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <section class="course-container">
+        <!-- <div class="course-header">
+            <div class="course-header-content">
+                <h1>Course Name</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione laudantium labore dolorum
+                    quas. Tempora fugiat incidunt cupiditate sequi repellendus, dicta est explicabo nihil harum
+                    voluptatem vero. Sunt, in corrupti dolores animi nemo officiis dicta suscipit, repellendus adipisci
+                    nostrum quod.</p>
+            </div>
+            <img src="assets/img/header-img.jpg" alt="Header Image" />
+        </div> -->
+        <div class="course-body">
+            <div class="course-details">
+                <h1>Expert VHDL Programming</h1>
+                <h2>Course Overview:</h2>
+                <p>
+                    The Expert VHDL course is designed for seasoned VHDL users who want to master the most advanced aspects of the language. This course will cover VHDL-2008 enhancements, advanced verification strategies, IP core development, and detailed timing analysis. Students will work on complex projects and learn how to create highly optimized and reusable digital designs.
+                </p>
+                <h3>Target Audience:</h3>
+                <ul>
+                    <li>Engineers and professionals with extensive VHDL experience</li>
+                    <li>Designers aiming to specialize in VHDL for large-scale, high-performance digital systems</li>
+                    <li>Individuals seeking to master advanced VHDL features and best practices</li>
+                </ul>
+                <h3>Prerequisites:</h3>
+                <ul>
+                    <li>Completion of Advanced VHDL course or equivalent experience</li>
+                    <li>Proficiency in writing and simulating complex VHDL designs</li>
+                    <li>Familiarity with hierarchical design, generics, and state machines</li>
+                </ul>
+                <h2>Course Structure:</h2>
+            
+                <h3>Lesson 1: Introduction to VHDL-2008</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                        <ul>
+                            <li>Overview of VHDL-2008 and its key enhancements over previous versions</li>
+                            <li>New syntax and features: Protected types, Enhanced generics, Conditional analysis, etc.</li>
+                            <li>Practical benefits of VHDL-2008 in modern digital design</li>
+                            <li>Compatibility and migration strategies from VHDL-93/2002 to VHDL-2008</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Understand the new features introduced in VHDL-2008</li>
+                            <li>Apply VHDL-2008 features to improve design efficiency and readability</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Refactor an existing VHDL design using VHDL-2008 features</li>
+                            <li>Simulate and compare the results between VHDL-2008 and earlier versions</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Material:</h4>
+                        <p>Slides on VHDL-2008 enhancements, code editor for hands-on refactoring</p>
+                    </li>
+                </ul>
+            
+                <h3>Lesson 2: Advanced Verification Techniques</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                        <ul>
+                            <li>Introduction to advanced verification methodologies, UVVM</li>
+                            <li>Using VHDL for advanced testbench creation: Randomization, Scoreboarding, Coverage-driven verification</li>
+                            <li>Assertion-based verification (ABV) with VHDL-2008</li>
+                            <li>Integrating VHDL with SystemVerilog for mixed-language verification</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Master advanced verification techniques to ensure design correctness</li>
+                            <li>Use VHDL-2008 assertions and advanced testbenches for thorough verification</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Create a complex testbench with coverage-driven verification</li>
+                            <li>Implement assertions to catch corner-case issues in a design</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Material:</h4>
+                        <p>Slides on advanced verification, code editor for testbench development, simulator for verification exercises</p>
+                    </li>
+                </ul>
+            
+                <h3>Lesson 3: IP Core Development and Integration</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                        <ul>
+                            <li>What are IP Cores? Introduction to reusable IP block design</li>
+                            <li>Best practices for developing IP cores in VHDL</li>
+                            <li>Creating parameterized and highly configurable IP cores using VHDL-2008</li>
+                            <li>Integrating third-party IP cores into your design</li>
+                            <li>Packaging and distributing VHDL IP cores with documentation and verification environments</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Develop, package, and distribute reusable IP cores using VHDL</li>
+                            <li>Integrate IP cores into larger systems and verify their functionality</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Design a reusable IP core (e.g., a UART module) in VHDL</li>
+                            <li>Package the IP core with a complete verification environment</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Material:</h4>
+                        <p>Slides on IP core development, code editor and simulator for IP core creation and verification</p>
+                    </li>
+                </ul>
+            
+                <h3>Lesson 4: Timing Analysis and Optimization</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                        <ul>
+                            <li>Understanding timing constraints and how they affect digital design</li>
+                            <li>Writing and applying timing constraints in synthesis and simulation</li>
+                            <li>Using static timing analysis (STA) tools to validate timing closure</li>
+                            <li>Techniques for optimizing VHDL code for timing: Pipelining, Retiming, Clock gating</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Perform detailed timing analysis to ensure design meets performance requirements</li>
+                            <li>Apply timing optimization techniques to improve design speed and reliability</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Run a static timing analysis on a complex VHDL design and fix timing violations</li>
+                            <li>Optimize a design for timing by applying advanced techniques like pipelining</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Material:</h4>
+                        <p>Slides on timing analysis, synthesis and timing analysis tools, code editor for optimization exercises</p>
+                    </li>
+                </ul>
+            
+                <h3>Lesson 5: Low-Power VHDL Design Techniques</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                        <ul>
+                            <li>Introduction to low-power design principles in digital systems</li>
+                            <li>VHDL techniques for reducing power consumption: Clock gating, Power gating, Dynamic voltage scaling</li>
+                            <li>Designing with power intent using UPF (Unified Power Format)</li>
+                            <li>Power estimation and analysis using EDA tools</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Implement low-power techniques in VHDL designs</li>
+                            <li>Analyze and optimize power consumption using simulation and synthesis tools</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Modify an existing VHDL design to reduce power consumption</li>
+                            <li>Perform a power analysis and verify the impact of low-power techniques</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Material:</h4>
+                        <p>Slides on low-power design, code editor, synthesis, and power analysis tools for hands-on exercises</p>
+                    </li>
+                </ul>
+            
+                <h3>Lesson 6: High-Performance and Parallel VHDL Design</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                        <ul>
+                            <li>Designing for high performance: Parallel processing, Pipelining, and Multi-clock domains</li>
+                            <li>Creating highly parallel architectures in VHDL</li>
+                            <li>Managing concurrency and synchronization in VHDL</li>
+                            <li>Trade-offs between area, speed, and power in high-performance designs</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Design high-performance digital circuits using parallel and pipelined architectures</li>
+                            <li>Optimize VHDL code for speed and efficiency while balancing other design constraints</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Implement a parallel processing unit in VHDL</li>
+                            <li>Simulate and analyze the performance gains from parallelism</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Material:</h4>
+                        <p>Slides on high-performance design, code editor and simulator for practical exercises</p>
+                    </li>
+                </ul>
+            
+                <h3>Lesson 7: Advanced Synthesis Techniques and FPGA Implementation</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                        <ul>
+                            <li>Deep dive into synthesis tools and techniques</li>
+                            <li>Advanced synthesis options: Resource sharing, Retiming, and Logic replication</li>
+                            <li>Design for FPGA: LUTs, Block RAM, DSP slices, and timing constraints</li>
+                            <li>Practical tips for optimizing VHDL designs for FPGA implementation</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Leverage advanced synthesis techniques to optimize VHDL designs for FPGA</li>
+                            <li>Understand and apply FPGA-specific optimizations for better performance</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Synthesize a VHDL design for an FPGA target and optimize it using advanced techniques</li>
+                            <li>Analyze the FPGA resource utilization and timing reports to guide further optimization</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Material:</h4>
+                        <p>Slides on advanced synthesis techniques, FPGA synthesis tools, code editor for practical synthesis exercises</p>
+                    </li>
+                </ul>
+            
+                <h3>Lesson 8: Course Wrap-Up and Capstone Project Overview</h3>
+                <ul>
+                    <li>
+                        <h4>Topics Covered:</h4>
+                        <ul>
+                            <li>Review of the expert-level VHDL concepts covered in the course</li>
+                            <li>Introduction to the capstone project: Designing a complex digital system with advanced VHDL features</li>
+                            <li>Guidelines for the capstone project and next steps for continued learning and career development</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Learning Objectives:</h4>
+                        <ul>
+                            <li>Consolidate advanced VHDL knowledge and apply it to a comprehensive project</li>
+                            <li>Prepare for real-world VHDL design challenges at an expert level</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Activities:</h4>
+                        <ul>
+                            <li>Overview and guidance on the capstone project, Q&A session</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Material:</h4>
+                        <p>Summary slides, project guidelines, resources for further learning</p>
+                    </li>
+                </ul>
+            
+                <h3>Capstone Project: Complex Digital System Design and Verification</h3>
+                <ul>
+                    <li><strong>Objective:</strong> Design and verify a complex digital system (e.g., a multi-core processor, a high-speed communication interface, or a custom DSP) using advanced VHDL features.</li>
+                    <li><strong>Requirements:</strong>
+                        <ul>
+                            <li>Utilize VHDL-2008 features, advanced verification techniques, and IP cores</li>
+                            <li>Apply timing and power optimization strategies to meet design constraints</li>
+                            <li>Develop comprehensive testbenches and perform thorough verification</li>
+                            <li>Implement the design on an FPGA and analyze the performance</li>
+                        </ul>
+                    </li>
+                    <li><strong>Deliverables:</strong>
+                        <ul>
+                            <li>VHDL code for the digital system</li>
+                            <li>Testbench code and verification results</li>
+                            <li>Timing and power analysis reports</li>
+                            <li>FPGA implementation and performance analysis</li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <h2>Course Delivery Method:</h2>
+                <ul>
+                    <li><strong>Format:</strong> The course will involve a mix of theoretical lessons, advanced coding sessions, and hands-on exercises. Students will engage in complex simulations, synthesis, and analysis tasks to fully understand the expert-level VHDL concepts.</li>
+                    <li><strong>Tools:</strong>
+                        <ul>
+                            <li>Slide deck for theoretical concepts and guidelines</li>
+                            <li>Text editor (e.g., VSCode) for VHDL coding</li>
+                            <li>VHDL simulator (e.g., ModelSim, GHDL) and synthesis tools (e.g., Vivado, Quartus) for implementation and analysis</li>
+                            <li>Power and timing analysis tools for optimizing designs</li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <h2>Assessment:</h2>
+                <ul>
+                    <li><strong>Quizzes:</strong> Short quizzes after each lesson to test comprehension of expert-level topics</li>
+                    <li><strong>Assignments:</strong> Advanced coding and optimization exercises focused on expert VHDL techniques</li>
+                    <li><strong>Capstone Project:</strong> A comprehensive design project that integrates all the advanced techniques learned in the course</li>
+                </ul>
+            </div>
+            
+            <div class="course-price-box">
+                <div class="course-detail-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" class="form-control" id="phone" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" required></textarea>
+                    </div>
+                </div>
+                <button>Send An Inquiry</button>
+            </div>
+        </div>
+    </section>
+    <!-- Further information -->
+    <section class="information-container">
+        <div class="information-content">
+            <h1>For Further Informations</h1>
+            <p>
+                LogiMentor is a dynamic, privately owned company focused on delivering
+                cutting-edge FPGA design services, HDL IP cores, and tailored
+                solutions. We are passionate about providing top-tier solutions to our
+                clients and are continuously seeking skilled and talented
+                professionals to become a part of our growing team.
+            </p>
+            <a href="./contact-us.html" class="btn-header">Contact Us</a>
+        </div>
+        <div class="information-form">
+            <!-- <form>
+          <div class="form-group">
+            <label for="name" class="text-white">Name:</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" class="form-control" id="phone" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn-submit">Submit</button>
+          </div>
+        </form> -->
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="assets/img/logo.png" alt="Logo" />
+                <p>
+                    12345 Street, City, State, Zip<br />
+                    (123) 456-7890<br />
+                    email@example.com
+                </p>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-card">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="./">Home</a></li>
+                        <li><a href="./company.html">Company</a></li>
+                        <li><a href="./fpga-design.html">FPGA Design</a></li>
+                        <li><a href="./fpga-solutions.html">FPGA Solutions</a></li>
+                        <li>
+                            <a href="./research-innovations.html">Research and Innovation</a>
+                        </li>
+                        <!-- <li><a href="./partners.html">Partners</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-right-card">
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                <b>LOGIMENTOR</b> | P.Iva 01780710495 | Uri LIVORNO | Rea 157459 |
+                Cap.Soc. 10.000 €
+            </p>
+        </div>
+    </footer>
+    <script>
+        let menu_btn = document.querySelector(".menu-btn");
+        let menu = document.querySelector(".menu-container");
+        menu_btn.addEventListener("click", () => {
+            menu_btn.classList.toggle("active");
+            if (menu_btn.classList.contains("active")) {
+                menu_btn.innerHTML = '<img src="assets/img/x.svg" alt="" />';
+            } else {
+                menu_btn.innerHTML = '<img src="assets/img/menu.svg" alt="" />';
+            }
+            menu.classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>
